@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![](https://komarev.com/ghpvc/?username=Tama0026&label=V+I+S+I+T+O+R+S&color=ff69b4&style=for-the-badge)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tama0026&theme=GitHub stats card)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tama0026&theme=2077)
