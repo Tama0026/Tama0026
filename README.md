@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](https://komarev.com/ghpvc/?username=Tama0026&label=V+I+S+I+T+O+R+S&color=ff69b4&style=for-the-badge
+![](https://komarev.com/ghpvc/?username=Tama0026&label=V+I+S+I+T+O+R+S&color=ff69b4&style=for-the-badge)
 http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tama0026&theme=GitHub stats card
