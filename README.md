@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tama0026" alt="tama0026" /></a> </p>
 
-- 🔭 I’m currently working on **NomNom App**
+- 🔭 I’m currently working on **MTCS**
 
 - 👯 I’m studying at **FPTHCM University**
 
