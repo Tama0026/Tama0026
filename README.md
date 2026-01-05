@@ -21,7 +21,8 @@
 ```text
 User: Tama0026
 Target: Full-stack & Automation Engineer
-Location: Vietnam 🇻🇳```
+Location: Vietnam 🇻🇳
+```
 
 ### 🧠 Weapons of Choice (Tech Stack)
 
