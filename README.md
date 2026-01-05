@@ -1,31 +1,36 @@
 <div align="center">
-
+  <img src="https://komarev.com/ghpvc/?username=Tama0026&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <br/>
+  
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&background=00000000&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+Tama+👋;Full-stack+%26+Cross-platform+Dev;Next.js+%7C+Flutter+%7C+.NET;Python+Automation+Specialist" alt="Typing SVG" />
   </a>
+</div>
 
+---
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Tama0026&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
 </div>
 
 ---
 
 <table align="center" border="0" bgcolor="0D1117">
   <tr>
-    <td width="50%" valign="top" style="border: none;">
+    <td width="55%" valign="top" style="border: none;">
       <h2>👨‍💻 About Me</h2>
       <ul>
-        <li>🔭 I’m currently working on <b>Cross-platform Apps (Flutter)</b> & <b>Web Systems (Next.js)</b>.</li>
-        <li>🌱 I’m currently learning deeper into **System Architecture** and **Data Processing**.</li>
-        <li>🎯 Goal: To become a versatile solution architect.</li>
+        <li>🔭 Working on <b>Cross-platform Apps (Flutter)</b> & <b>Web (Next.js)</b>.</li>
+        <li>🌱 Learning **System Architecture** & **Data Processing**.</li>
+        <li>🎯 Goal: Become a versatile solution architect.</li>
         <li>⚡ Fun fact: I love automating boring tasks with Python!</li>
-        <li>📫 Reach me at: [Email của bạn]</li>
+        <li>📫 Contact: [Email của bạn]</li>
       </ul>
     </td>
-    <td width="50%" valign="center" style="border: none;">
-        <h2 align="center">📊 My Stats</h2>
+    <td width="45%" valign="center" style="border: none;">
+        <h2 align="center">🔥 Coding Streak</h2>
         <div align="center">
-            <img src="https://github-readme-stats.vercel.app/api?username=Tama0026&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="Tama's GitHub Stats" height="150"/>
-            <br/>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tama0026&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6" alt="Top Languages" height="150"/>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tama0026&theme=tokyonight&hide_border=true&background=0D1117" alt="Tama's Streak" />
         </div>
     </td>
   </tr>
@@ -75,7 +80,7 @@
 
 ---
 
-### 🐍 My Contribution Snake
+### 🐍 Contribution Snake
 
 <div align="center">
   <img src="https://github.com/Tama0026/Tama0026/blob/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
@@ -84,7 +89,5 @@
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/Link_GIF_Dong_Cua_Ban_Tai_Day/giphy.gif" width="100" alt="footer gif" />
-  <br/>
-  <sub>Thanks for visiting! Let's code something awesome together.</sub>
+  <sub>Generated with ❤️ by Tama</sub>
 </div>
