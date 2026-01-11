@@ -92,14 +92,20 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tama0026&theme=radical&no-frame=true&margin-w=15&row=1" alt="trophy" />
+  <img src="https://github-trophies.vercel.app/?username=Tama0026&theme=radical&column=6&row=2&margin-w=4&margin-h=8&no-bg=false&no-frame=false&order=4" height="200" alt="trophy graph" />
 </div>
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tama0026&theme=tokyo-night&hide_border=true&area=true" alt="activity-graph" />
 </div>
 
----
+<div align="center">
 
+  <br>
+
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Coding Gif" />
+
+
+</div>
 <div align="center">
   <br>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=There+is+no+place+like+127.0.0.1" alt="Quote" />
