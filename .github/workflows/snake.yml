@@ -1,34 +1,44 @@
 name: Generate Snake
 
 on:
+  # Chạy tự động mỗi 24h
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 */24 * * *" 
+  
+  # Cho phép bấm nút chạy thủ công
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
+    
+    # Cấp quyền ghi dữ liệu
+    permissions: 
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate Snake Game
         uses: Platane/snk@v3
         with:
+          # Tự động lấy tên user của bạn
           github_user_name: ${{ github.repository_owner }}
+          
+          # Cấu hình file ảnh đầu ra và Màu Sắc (Cam và Tím)
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A020F0
         env:
+          # Dùng Token cá nhân để đọc lịch sử Private
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Push Snake to Output Branch
+      - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
+          # Dùng Token cá nhân để ghi đè file ảnh mới
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
