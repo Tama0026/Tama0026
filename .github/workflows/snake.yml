@@ -15,6 +15,20 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      # --- BƯỚC DEBUG KIỂM TRA KEY ---
+      - name: Check Token Status
+        env:
+          MY_TOKEN: ${{ secrets.GH_TOKEN }} # Nhớ đổi GH_TOKEN thành tên Secret của bạn nếu khác
+        run: |
+          if [ -z "$MY_TOKEN" ]; then
+            echo "❌ LỖI: Token đang bị RỖNG! (Workflow chưa lấy được Secret)"
+            exit 1
+          else
+            echo "✅ THÀNH CÔNG: Đã tìm thấy Token! (GitHub đã nhận key)"
+            echo "Độ dài key là: ${#MY_TOKEN} ký tự."
+          fi
+      # --------------------------------
+
       - name: Generate Snake Game
         uses: Platane/snk@v3
         with:
@@ -23,8 +37,7 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A020F0
         env:
-          # SỬA TÊN Ở ĐÂY:
-          GITHUB_TOKEN: ${{ secrets.MY_SNAKE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -32,5 +45,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          # VÀ SỬA TÊN Ở ĐÂY NỮA:
-          GITHUB_TOKEN: ${{ secrets.MY_SNAKE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
