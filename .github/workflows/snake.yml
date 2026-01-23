@@ -2,13 +2,13 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 */24 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: write
 
     steps:
@@ -19,16 +19,10 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          
-          # Cấu hình đầu ra và MÀU SẮC
-          # color_snake: Màu con rắn
-          # color_dots: 5 mã màu cho các ô vuông (từ trống -> ít -> nhiều commit)
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A020F0
-            
         env:
-          # QUAN TRỌNG: Dùng token cá nhân để đọc được commit từ Private Repo
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Push Snake to Output Branch
