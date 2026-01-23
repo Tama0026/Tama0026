@@ -12,44 +12,22 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout Code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      # --- BƯỚC DEBUG: SOI KỸ KEY (LÁCH LUẬT) ---
-      - name: Reveal Key Hints
-        env:
-          MY_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          # Lấy 4 ký tự đầu tiên
-          FIRST_4="${MY_TOKEN:0:4}"
-          
-          # Lấy 4 ký tự cuối cùng
-          LAST_4="${MY_TOKEN: -4}"
-          
-          echo "👉 ĐẦU key của bạn là: $FIRST_4"
-          echo "👉 ĐUÔI key của bạn là: $LAST_4"
-          
-          if [ "$FIRST_4" != "ghp_" ]; then
-             echo "❌ CẢNH BÁO: Key sai định dạng! Mã đúng phải bắt đầu bằng 'ghp_'"
-          fi
-      # ------------------------------------------
-
-      - name: Generate Snake Game
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           
-          # --- THAY ĐỔI Ở ĐÂY: Truyền Token trực tiếp ---
+          # ĐÂY LÀ DÒNG QUAN TRỌNG NHẤT: Ép dùng Token mới của bạn
           github_token: ${{ secrets.GH_TOKEN }}
-          # ---------------------------------------------
           
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A020F0
-        
-        # Xóa phần env: GITHUB_TOKEN ở dưới này đi cũng được, hoặc để kệ nó
 
-      - name: Push to Output Branch
+      - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
