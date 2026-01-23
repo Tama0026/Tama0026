@@ -25,7 +25,7 @@ jobs:
             exit 1
           else
             echo "✅ THÀNH CÔNG: Đã tìm thấy Token! (GitHub đã nhận key)"
-            echo "Độ dài key là: ${#MY_TOKEN} ký tự."
+            echo "Độ dài key là: ${#GH_TOKEN} ký tự."
           fi
       # --------------------------------
 
