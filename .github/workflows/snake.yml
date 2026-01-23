@@ -15,19 +15,24 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # --- BƯỚC DEBUG KIỂM TRA KEY ---
-      - name: Check Token Status
+      # --- BƯỚC DEBUG: SOI KỸ KEY (LÁCH LUẬT) ---
+      - name: Reveal Key Hints
         env:
-          MY_TOKEN: ${{ secrets.GH_TOKEN }} # Nhớ đổi GH_TOKEN thành tên Secret của bạn nếu khác
+          MY_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          if [ -z "$MY_TOKEN" ]; then
-            echo "❌ LỖI: Token đang bị RỖNG! (Workflow chưa lấy được Secret)"
-            exit 1
-          else
-            echo "✅ THÀNH CÔNG: Đã tìm thấy Token! (GitHub đã nhận key)"
-            echo "Độ dài key là: ${#GH_TOKEN} ký tự."
+          # Lấy 4 ký tự đầu tiên
+          FIRST_4="${MY_TOKEN:0:4}"
+          
+          # Lấy 4 ký tự cuối cùng
+          LAST_4="${MY_TOKEN: -4}"
+          
+          echo "👉 ĐẦU key của bạn là: $FIRST_4"
+          echo "👉 ĐUÔI key của bạn là: $LAST_4"
+          
+          if [ "$FIRST_4" != "ghp_" ]; then
+             echo "❌ CẢNH BÁO: Key sai định dạng! Mã đúng phải bắt đầu bằng 'ghp_'"
           fi
-      # --------------------------------
+      # ------------------------------------------
 
       - name: Generate Snake Game
         uses: Platane/snk@v3
