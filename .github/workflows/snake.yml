@@ -38,11 +38,16 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          
+          # --- THAY ĐỔI Ở ĐÂY: Truyền Token trực tiếp ---
+          github_token: ${{ secrets.GH_TOKEN }}
+          # ---------------------------------------------
+          
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A020F0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        
+        # Xóa phần env: GITHUB_TOKEN ở dưới này đi cũng được, hoặc để kệ nó
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
