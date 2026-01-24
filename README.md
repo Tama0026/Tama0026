@@ -127,5 +127,5 @@
 
 <div align="center">
   <img src="./slime.gif" width="100" alt="Slime" style="display: inline-block; margin-right: 20px;" />
-  <img src="./monkey.gif" width="100" alt="Monkey" style="display: inline-block;" />
+  <img src="./ray.gif" width="100" alt="Monkey" style="display: inline-block;" />
 </div>
