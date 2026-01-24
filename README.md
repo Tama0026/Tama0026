@@ -126,3 +126,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=There+is+no+place+like+127.0.0.1" alt="Quote" />
 </div>
 </div>
+<div align="center">
+  <img src="./charizard.gif" width="150" alt="My Game Character" />
+</div>
