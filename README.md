@@ -102,7 +102,9 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tama0026&theme=tokyo-night&hide_border=true&area=true" alt="activity-graph" />
 </div>
-
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
+</div>
 <div align="center">
 
   <br>
