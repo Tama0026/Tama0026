@@ -127,5 +127,6 @@
 </div>
 </div>
 <div align="center">
-  <img src="./ryze.gif" width="150" alt="Ryze" />
+  <img src="./slime.gif" width="150" alt="Slime" />
+  <img src="./monkey.gif" width="150" alt="Monkey" />
 </div>
