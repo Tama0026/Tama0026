@@ -131,5 +131,5 @@
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-  <img src="./charizard.gif" width="150" alt="Charizard" />
+  <img src="./charizard_normal.gif" width="150" alt="Charizard" />
 </div>
