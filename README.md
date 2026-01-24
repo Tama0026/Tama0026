@@ -127,9 +127,5 @@
 </div>
 </div>
 <div align="center">
-  <img src="./dragonite.gif" width="150" alt="Dragonite" />
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-  <img src="./charizard_normal.gif" width="150" alt="Charizard" />
+  <img src="./ryze.gif" width="150" alt="Ryze" />
 </div>
