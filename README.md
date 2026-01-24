@@ -97,7 +97,9 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tama0026&theme=flat&no-frame=true&column=7&margin-w=15&margin-h=15" alt="trophy" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Tama0026&show_icons=true&theme=tokyo-night&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tama0026&layout=compact&theme=tokyo-night&hide_border=true&langs_count=6" alt="Top Langs" />
 </div>
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tama0026&theme=tokyo-night&hide_border=true&area=true" alt="activity-graph" />
