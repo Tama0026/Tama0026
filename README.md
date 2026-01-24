@@ -127,5 +127,9 @@
 </div>
 </div>
 <div align="center">
-  <img src="./charizard.gif" width="150" alt="My Game Character" />
+  <img src="./dragonite.gif" width="150" alt="Dragonite" />
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <img src="./charizard.gif" width="150" alt="Charizard" />
 </div>
