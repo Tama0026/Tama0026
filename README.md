@@ -97,7 +97,7 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tama0026&theme=flat&no-frame=true&column=7&margin-w=15&margin-h=15" alt="trophy" /> graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Tama0026&theme=flat&no-frame=true&column=7&margin-w=15&margin-h=15" alt="trophy" />
 </div>
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tama0026&theme=tokyo-night&hide_border=true&area=true" alt="activity-graph" />
