@@ -72,15 +72,6 @@
 
 ### 🚀 Featured Projects
 
-#### ⚽️ [PitchPro](https://github.com/Tama0026/PitchPro) _(Current Focus)_
-> **Football Ecosystem & E-commerce Platform**
-> *A passion project marking my transition into **Python** and **Full-stack** development.*
-- **🛠 Tech Stack:** ![Python](https://img.shields.io/badge/-Python-FF00FF?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-00FFFF?style=flat-square&logo=fastapi&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-9D00FF?style=flat-square&logo=next.js&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-00C7FF?style=flat-square&logo=postgresql&logoColor=white)
-- **💡 Highlights:**
-  - 🛒 Full E-commerce integration (Shopping Cart, Checkout).
-  - 🏟️ Real-time pitch booking and status updates.
-  - 🤖 Chatbox AI integration for user assistance.
-
 #### 🚛 [MTCS - Logistics System](https://github.com/HienMinh56/MTCS-BE)
 > **Capstone Project - Driver & Delivery Management**
 - **🛠 Tech Stack:** ![.NET](https://img.shields.io/badge/-.NET_8-D200FF?style=flat-square&logo=dotnet&logoColor=white) ![SignalR](https://img.shields.io/badge/-SignalR-FF00FF?style=flat-square&logo=dotnet&logoColor=white) ![Firebase](https://img.shields.io/badge/-Firebase-FFD700?style=flat-square&logo=firebase&logoColor=black) ![Flutter](https://img.shields.io/badge/-Flutter-00FFFF?style=flat-square&logo=flutter&logoColor=black)
