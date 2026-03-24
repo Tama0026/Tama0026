@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=Hello,+I'm+Tam!;Backend+Developer;.NET+%26+Python+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=Hello,+I'm+Tam!;Backend+Developer;.NET+%26+TypeScript+Enthusiast" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -42,27 +42,27 @@
 <div align="center">
   <table border="0" style="border-collapse: collapse; border: none;">
     <tr align="center">
-      <th width="25%">Backend Core</th>
-      <th width="25%">New Tech</th>
-      <th width="25%">Mobile</th>
+      <th width="25%">Backend Core (.NET)</th>
+      <th width="25%">Modern Fullstack (JS/TS)</th>
+      <th width="25%">Mobile & Tools</th>
       <th width="25%">Database & Cloud</th>
     </tr>
     <tr align="center">
       <td>
         <img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio&theme=dark" width="45"/>
-        <br><b>C# / .NET</b>
+        <br><b>C# / .NET / SQL Server</b>
       </td>
       <td>
-        <img src="https://skillicons.dev/icons?i=python,fastapi,nextjs,ts&theme=dark" width="45"/>
-        <br><b>FastAPI / Next.js</b>
+        <img src="https://skillicons.dev/icons?i=nextjs,ts,react,nestjs,graphql&theme=dark" width="45"/>
+        <br><b>Next.js 16 / NestJS 11 / GraphQL</b>
       </td>
       <td>
-        <img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark" width="45"/>
-        <br><b>Flutter / Dart</b>
+        <img src="https://skillicons.dev/icons?i=flutter,dart,vscode,figma&theme=dark" width="45"/>
+        <br><b>Flutter / Dart / Electron with Next.js</b>
       </td>
       <td>
-        <img src="https://skillicons.dev/icons?i=azure,firebase,postgres,sqlserver&theme=dark" width="45"/>
-        <br><b>Azure / SQL</b>
+        <img src="https://skillicons.dev/icons?i=postgres,prisma,azure,cloudinary,firebase&theme=dark" width="45"/>
+        <br><b>PostgreSQL / Azure / Cloudinary / Firebase</b>
       </td>
     </tr>
   </table>
@@ -71,6 +71,11 @@
 ---
 
 ### 🚀 Featured Projects
+
+#### 🎓 [Full Course - eLearning Platform](https://github.com/Tama0026/Full_Course)
+> **AI-Powered Fullstack Learning Management System**
+- **🛠 Tech Stack:** ![Next.js](https://img.shields.io/badge/-Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/-NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+- **💡 Highlights:** Features AI-generated content & assessments (Gemini), anti-cheat exams, real-time gamification, and secure BFF JWT authentication.
 
 #### 🚛 [MTCS - Logistics System](https://github.com/HienMinh56/MTCS-BE)
 > **Capstone Project - Driver & Delivery Management**
