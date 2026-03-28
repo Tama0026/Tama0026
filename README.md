@@ -33,7 +33,7 @@
 
 ---
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tama0026&theme=tokyo-night&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tama0026&theme=tokyo-night&hide_border=true&v=1" alt="GitHub Streak" />
   <br/><br/>
 </div>
 ---
