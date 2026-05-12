@@ -19,7 +19,7 @@
   <a href="mailto:mtam7896@gmail.com">
     <img src="https://img.shields.io/badge/Email-mtam7896%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="[https://topcv.vn/xem-cv/TranNhutMinhTam_BackendDev_CV.pdf](https://www.topcv.vn/xem-cv/A1dbVQEHVAMFAlNVAghZUA1QBQEBBV8CCwFRAge9bd)">
+  <a href="https://www.topcv.vn/xem-cv/A1dbVQEHVAMFAlNVAghZUA1QBQEBBV8CCwFRAge9bd">
     <img src="https://img.shields.io/badge/CV-View_My_CV-00B14F?style=for-the-badge&logo=topcv&logoColor=white"/>
   </a>
   <a href="https://github.com/Tama0026">
